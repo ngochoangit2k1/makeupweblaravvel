@@ -21,7 +21,7 @@ Route::get('/tin-tuc', function () {
 });
 
 Route::get('/khach-hang', function () {
-    return view('layout/customer');
+    return view('layout/lagding-page');
 });
 
 Route::get('/news', [NewsController::class, 'layout/blog'])->name('blog.index');
